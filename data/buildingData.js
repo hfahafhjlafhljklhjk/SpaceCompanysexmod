@@ -25,15 +25,15 @@ Game.buildingData = (function () {
     });
 
     instance.energyT2 = $.extend({}, baseProducerBuilding, {
-        name: 'Solar Panel',
+        name: 'Cheat',
         desc: 'Gains Energy slowly from the sun without using any resources.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 1.5
+            'energy': 999999999999
         },
         cost: {
-            'metal': 30,
-            'gem': 35
+            'metal': 1
+            'gem': 1
         }
     });
 
