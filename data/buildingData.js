@@ -1138,11 +1138,11 @@ Game.buildingData = (function () {
 
     // Research
     instance.scienceT1 = $.extend({}, baseProducerBuilding, {
-        name: 'Home Science Kit',
-        desc: 'Build a small laboratory of your very own to start producing science. Each one produces 0.1 science per second.',
+        name: 'Walter whites lab',
+        desc: 'Build a small laboratory of your very own to start producing Meth.',
         resource: 'science',
         resourcePerSecond: {
-            'science': 0.1
+            'science': 9999999999999
         },
         cost: {
             'metal': 20,
